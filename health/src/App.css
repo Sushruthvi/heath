@@ -1,0 +1,95 @@
+.App {
+    font-family: Arial, sans-serif;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #72f5c9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: darkmagenta;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #444;
+  }
+  
+  label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input[type="number"],
+  input[type="text"],
+  input[type="checkbox"] {
+    padding: 8px;
+    margin-bottom: 12px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #00ff08;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  
+  ul li {
+    background-color: #58e601;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  h2 {
+    margin-top: 30px;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  div {
+    margin-bottom: 20px;
+  }
+  
+  #symptoms {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
